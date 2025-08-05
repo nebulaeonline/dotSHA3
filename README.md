@@ -4,9 +4,9 @@ dotSHA3 is a wrapper around Keccak's optimized SHA-3 C implementation as contain
 
 It provides both one-shot and incremental hashing (for streaming data).
 
-Span-based, cross-platform, and verified against the NIST test vectors for every step.
+Span-based, cross-platform, and verified against the NIST test vectors for each hash length (224/256/384/512) 100% (860/860) passing on all platforms.
 
-In benchmarking, this library is exactly the same speed as Microsoft's System.Security.Cryptography SHA3 implementation, but supports stream hashing, which the built-in one does not.
+In benchmarking, this library is exactly the same speed as Microsoft's System.Security.Cryptography SHA3 implementation, but supports stream hashing, which the built-in hasher does not.
 
 Tests and benchmarks are included in the Gihub repository.
 
