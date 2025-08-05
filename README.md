@@ -10,6 +10,8 @@ In benchmarking, this library is exactly the same speed as Microsoft's System.Se
 
 Tests and benchmarks are included in the Gihub repository.
 
+[![NuGet](https://img.shields.io/nuget/v/nebulae.dotSHA3.svg)](https://www.nuget.org/packages/nebulae.dotSHA3)
+
 ## Features
 
 - **Cross-platform**: Works on Windows, Linux, and macOS (x64 & Apple Silicon).
