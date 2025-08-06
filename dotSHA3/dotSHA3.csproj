@@ -7,7 +7,7 @@
         <RootNamespace>nebulae.dotSHA3</RootNamespace>
         <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
         <PackageId>nebulae.dotSHA3</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Authors>Robert C. Horvath III</Authors>
         <Company>Nebulae Foundation LLC</Company>
         <Description>High-performance cross-platform Keccak wrapper for SHA3 hashing</Description>
