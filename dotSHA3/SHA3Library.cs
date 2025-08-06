@@ -19,7 +19,7 @@ namespace nebulae.dotSHA3
 
         private static IntPtr Resolve(string libraryName, Assembly assembly, DllImportSearchPath? searchPath)
         {
-            if (libraryName != "blake3")
+            if (libraryName != "sha3")
                 return IntPtr.Zero;
 
             var libName = GetPlatformLibraryName();
@@ -27,7 +27,7 @@ namespace nebulae.dotSHA3
             var fullPath = Path.Combine(assemblyDir, libName);
 
             if (!File.Exists(fullPath))
-                throw new DllNotFoundException($"Could not find native Blake3 library at {fullPath}");
+                throw new DllNotFoundException($"Could not find native SHA3 library at {fullPath}");
 
             return NativeLibrary.Load(fullPath);
         }
